@@ -23,7 +23,7 @@ namespace MyDI
 		{
 			DIModel dim = new DIModel();
 			dim.title = "Hello";
-			dim.message = "Hi I am from MyDIPage in iOS";
+			dim.message = "Hi I am vinoth in iOS";
 			notificationInterface.Alertmsg(dim);
 		}
 	}
