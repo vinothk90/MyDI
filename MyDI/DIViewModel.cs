@@ -22,8 +22,8 @@ namespace MyDI
 		void OnBtnClick()
 		{
 			DIModel dim = new DIModel();
-			dim.title = "Halo";
-			dim.message = "Hi I am from MyDIPage";
+			dim.title = "Hello";
+			dim.message = "Hi I am from MyDIPage in iOS";
 			notificationInterface.Alertmsg(dim);
 		}
 	}
