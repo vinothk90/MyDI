@@ -23,7 +23,7 @@ namespace MyDI
 		void OnBtnClick()
 		{
 			DIModel dim = new DIModel();
-			dim.title = "Hello";
+			dim.title = "Hello abc";
 			dim.message = "Hi I am vinoth in iOS";
 			dim.age = 29;
 			Debug.WriteLine("Testing GIT");
