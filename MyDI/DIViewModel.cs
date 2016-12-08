@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -24,6 +25,8 @@ namespace MyDI
 			DIModel dim = new DIModel();
 			dim.title = "Hello";
 			dim.message = "Hi I am vinoth in iOS";
+			dim.age = 29;
+			Debug.WriteLine("Testing GIT");
 			notificationInterface.Alertmsg(dim);
 		}
 	}
